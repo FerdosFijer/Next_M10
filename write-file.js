@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+// synchronize  
 const content1 = "This is a content \n nodejs is awesome!!!";
 
 try {
@@ -8,7 +9,7 @@ try {
 } catch (err) {
   console.err(err.message);
 }
-
+// Asynchronous 
 const content2 = " This is a content too \n asynchronous!!!";
 
 fs.writeFile("./output/test-async.txt", content2, (error) => {
