@@ -4,6 +4,8 @@ console.log("platform:", process.platform);
 /* 
 1. hello.js
 2. greeting.js
-3. read-sync.js-0+000  4.
-5.
+3. read-sync.js
+4. read-async.js
+5. write-file.js
+6. 
 */
