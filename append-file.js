@@ -11,4 +11,4 @@ fs.appendFileSync("./output/app.log", logEntry2);
 
 console.log("task complete");
 
-// 2nd bar run korle app.log e new 2 ta line add hobe aiveabe colte thakbe 
+// 2nd bar run korle app.log e new 2 ta line add hobe aiveabe cholta thakbe 
