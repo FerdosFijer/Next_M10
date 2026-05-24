@@ -22,3 +22,6 @@ console.log("Parsed path object: ", parsed);
 console.log("\n" + "-".repeat(50) + "\n");
 
 console.log("formatted path: ", path.format(parsed));
+
+
+//! path means drive er /C:/Fijer/10\nextLevel.pdf amn link ta jeta theke protome vange vange dektesi and jkn object obbostay takbe take ager moto full link akare dekbo
