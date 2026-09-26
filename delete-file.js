@@ -1,5 +1,4 @@
 const fs = require("fs");
-
 //! synchronous
 fs.writeFileSync("./output/temp.txt", " this is a temp file")
 console.log("temp file created");
@@ -17,7 +16,6 @@ if (fs.existsSync("./output/temp.txt")) {
         console.log("ERROR :", error.message);
     }
 }
-
 //! Asynchronous
 
 fs.writeFile("./output/temp2.txt", "Another temp file", (err) => {

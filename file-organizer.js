@@ -114,7 +114,8 @@ function organizeFiles() {
     console.log(`${category}`);
     console.log(`${stat.size}`);
   });
-}function showHelp() {
+}
+function showHelp() {
   console.log(`
         file organizer - usage:
 
@@ -129,9 +130,9 @@ function organizeFiles() {
 }
 
 const command = process.argv[2];
-
+//switch statement use korsi switch case dekhar jonno 
 switch (command) {
-  case "init":
+  case "init": 
     initializeDirectories();
     break;
   case "organize":

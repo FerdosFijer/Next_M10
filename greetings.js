@@ -1,11 +1,12 @@
-const args = process.argv;
-
 // process.arg[0] = node path
 // process.arg[1] = file path
 // process.arg[2] = first actual argument;
 
-const name = args[2] || "guest";
-const time = new Date().getHours()
+const args = process.argv;
+
+const name = args[2] || "guest"; //args[2] eta diye first argument ta dekasse
+ 
+const time = new Date().getHours() // eta diye live time ta passi
 
 let greeting;
 
@@ -16,5 +17,5 @@ if (time < 12) {
 } else {
   greeting = "Good Evening";
 }
-
+console.log(time);
 console.log(`${greeting} ${name}`);
